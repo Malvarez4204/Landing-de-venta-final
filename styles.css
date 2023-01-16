@@ -87,7 +87,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("assets/hero.jpg");
+    ,url("assets/banner-main-black.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -139,7 +139,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("assets/fullstack.png");
+    ,url("assets/16292247_32007138_600.webp");
 
 }
 
@@ -149,7 +149,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("assets/javacard.png");
+    ,url("assets/8275902-1.jpg");
 }
 
 .carta:nth-child(3){
@@ -158,7 +158,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/python.jpg");
+    ,url("assets/IN-DD8959-100-1.jpg");
 
 }
 
