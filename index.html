@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
- <title>Marca.Nike</title>
+  <title>Marca.Nike</title>
 </head>
 
 <body>
@@ -14,9 +14,9 @@
     <div class="container">
       <p class="logo">NikeStore</p>
       <nav>
-        <a href="#">Quienes Somos</a>
-        <a href="#">Nuestros productos</a>
-        <a href="/iniciosesion/indexinicio.html">Inicio de sesion</a>
+        <a href="#somos-proya">Quienes Somos</a>
+        <a href="#nuestros-programas">Nuestros productos</a>
+        <a href="#final">Inicio de sesion</a>
       </nav>
     </div>
   </header>
@@ -25,7 +25,7 @@
     <button>Catálogo</button>
   </section>
 
-  <section id="programa-ya">
+  <section id="somos-proya">
     <div class="container">
       <div class="img-container">
       </div>
@@ -38,25 +38,25 @@
     </div>
   </section>
 
-  <section id="Nuestros-programas">
+  <section id="nuestros-programas">
     <div class="container">
-      <h2> Nuestra oferta de descuentos</h2>
+      <h2> Nuestros Productos</h2>
       <div class="programas">
-        <div class="tarjetas">
+        <div class="carta">
           <h3>Catalogo 2022 </h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eum aspernatur quam ea suscipit doloremque
             cumque inventore illo eos voluptatem quod pariatur necessitatibus rerum, corporis cum optio! Maxime, fugiat
             nihil.</p>
           <button>+ Info</button>
         </div>
-        <div class="tarjetas">
+        <div class="carta">
           <h3>Catalogo 2023 </h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eum aspernatur quam ea suscipit doloremque
             cumque inventore illo eos voluptatem quod pariatur necessitatibus rerum, corporis cum optio! Maxime, fugiat
             nihil.</p>
           <button>+ Info</button>
         </div>
-        <div class="tarjetas">
+        <div class="carta">
           <h3>Catalogo outlet accesorios</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eum aspernatur quam ea suscipit doloremque
             cumque inventore illo eos voluptatem quod pariatur necessitatibus rerum, corporis cum optio! Maxime, fugiat
@@ -67,7 +67,7 @@
     </div>
   </section>
 
-  <section id="ventajas " </section>
+  <section id="caracteristicas" </section>
     <div class="container">
       <ul>
         <li>▶ 100% online tu tramite</li>
@@ -79,14 +79,23 @@
   </section>
   <section id="final">
     <h2>¿Listo para emprender?</h2>
-    <button>Registrate ya!</button>
+    <div id="formulario">
+      <label for="nombre"> Nombre: </label>
+      <input id="nombre" type="text" placeholder="Ingresa tu Nombre Completo">
+      <label for="email"> Correo: </label>
+      <input id="email" type="email" placeholder="Ingresa tu correo">
+    </div>
+    </div>
+    <button>Enviar</button>
   </section>
 
-<footer>
-        <div class="container">
-            <p>&copy; NikeStore 2023</p>
-        </div>
-    </footer>
+  <footer>
+    <div class="container">
+      <p>&copy; NikeStore 2023</p>
+      <p>Author: Miguel Angel Alvarez Bautista</p>
+      <p><a href="mailto:hege@example.com">miguelab@nike.com</a></p>
+    </div>
+  </footer>
 </body>
 
 </html>
